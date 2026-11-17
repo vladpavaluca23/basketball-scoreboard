@@ -21,3 +21,19 @@ function add3Point() {
     scoreHome += 3
     homeScoreEl.textContent = scoreHome
 }
+
+// Guest team functions: 1 function per button
+function guestAdd1Point() {
+    scoreGuest += 1
+    guestScoreEl.textContent = scoreGuest
+}
+
+function guestAdd2Point() {
+    scoreGuest += 2
+    guestScoreEl.textContent = scoreGuest
+}
+
+function guestAdd3Point() {
+    scoreGuest += 3
+    guestScoreEl.textContent = scoreGuest
+}
